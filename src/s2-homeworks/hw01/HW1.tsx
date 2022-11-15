@@ -15,62 +15,62 @@ import avatar from './avatar.png'
 
 // структуру объекта не менять
 export const message0: MessageType = {
-    id: 0,
-    user: {
-        avatar: avatar, // можно менять
-        name: 'Norman',  // можно менять
-    },
-    message: {
-        text: 'some text', // можно менять
-        time: '22:00', // можно менять
-    },
+	id: 0,
+	user: {
+		avatar: avatar, // можно менять
+		name: 'Norman',  // можно менять
+	},
+	message: {
+		text: 'some text', // можно менять
+		time: '22:00', // можно менять
+	},
 }
 
 // нужно создать правильный тип вместо any
 export type MessageType = {
-    id: number;
-    user: UserMessageType;
-    message:TextMessageType;
+	id: number;
+	user: UserMessageType;
+	message: TextMessageType;
 }
 
-export type UserMessageType={
-    avatar:string;
-    name: string;
+export type UserMessageType = {
+	avatar: string;
+	name: string;
 }
 
-export type TextMessageType ={
-    text: string;
-    time: string;
+export type TextMessageType = {
+	text: string;
+	time: string;
 }
 
 export const friendMessage0: MessageType = {
-    id: 100,
-    user: {
-        avatar: avatar, // можно менять
-        name: 'Friend Name', // можно менять
-    },
-    message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
-        time: '22:00', // можно менять
-    },
+	id: 100,
+	user: {
+		avatar: avatar, // можно менять
+		name: 'Friend Name', // можно менять
+	},
+	message: {
+		text: 'зеркальное сообщение для тренировки css', // можно менять
+		time: '22:00', // можно менять
+	},
 }
 
 const HW1 = () => {
-    return (
-        <div id={'hw1'}>
-            <div className={s2.hwTitle}>Homework #1</div>
-            <div className={s2.hw}>
-                {/*проверка отображения (не менять)*/}
-                <div>
-                    <Message message={message0} />
-                    <FriendMessage message={friendMessage0} />
-                </div>
+	return (
+		<div id={'hw1'}>
+			<div className={s2.hwTitle}>Homework #1</div>
+			<div className={s2.hw}>
+				{/*проверка отображения (не менять)*/}
+				<div>
+					<Message message={message0}/>
+					<FriendMessage message={friendMessage0}/>
+				</div>
 
-                {/*для автоматической проверки дз (не менять)*/}
-                <MessageSender M={Message} />
-            </div>
-        </div>
-    )
+				{/*для автоматической проверки дз (не менять)*/}
+				<MessageSender M={Message}/>
+			</div>
+		</div>
+	)
 }
 
 export default HW1
