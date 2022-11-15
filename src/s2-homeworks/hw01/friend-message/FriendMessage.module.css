@@ -15,7 +15,6 @@
 
 .friendText {
     background: #F5F7FB;
-;
     display: flex;
     flex-direction: column;
     max-width: 530px;
@@ -35,7 +34,6 @@
     border: 10px solid transparent;
     border-bottom: 0 solid transparent;
     border-right: 13px solid #F5F7FB;
-;
 }
 
 .friendName {
