@@ -22,7 +22,7 @@ export const message0: MessageType = {
 	},
 	message: {
 		text: 'Hello, she didn’t do anything and rested all day, how are you?', // можно менять
-		time: '09:01', // можно менять
+		time: '09:00', // можно менять
 	},
 }
 
