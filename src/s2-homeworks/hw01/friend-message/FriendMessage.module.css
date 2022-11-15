@@ -7,10 +7,11 @@
 }
 
 .friendImageAndText img {
-
+    width: 48px;
 }
 
 .friendText {
+    background: #F5F7FB;
 
 }
 
