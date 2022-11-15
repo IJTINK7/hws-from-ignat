@@ -16,7 +16,7 @@ const Message = (props: MessagePropsType) => {
 					id={'hw1-avatar-' + props.message.id}
 					alt="avatar"
 					src={props.message.user.avatar}
-					width={'48px'}
+
 				/>
 				<div className={s.text}>
 					<div id={'hw1-name-' + props.message.id} className={s.name}>
