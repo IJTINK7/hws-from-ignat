@@ -35,16 +35,19 @@ const defaultAffairs: Array<AffairType> = [
 ];
 
 // pure helper functions
-export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): any => { // need to fix any
-    return affairs.filter(el=>el.priority === filter)
+export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => {
+    if(filter === "all"){
+        return affairs;
+    }
+    return affairs.filter(el=>el.priority === filter);
 }
-export const deleteAffair = (affairs: Array<AffairType>, _id: number): any => { // need to fix any
+export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => { // need to fix any
     return affairs.filter(el=>el._id !== _id);
 }
 
 function HW2() {
     const [affairs, setAffairs] = useState<Array<AffairType>>(defaultAffairs);
-    const [filter, setFilter] = useState<FilterType>('all');
+    const [filter, setFilter] = useState<FilterType>('high');
 
     const filteredAffairs = filterAffairs(affairs, filter)
     const deleteAffairCallback = (_id: number) => {
