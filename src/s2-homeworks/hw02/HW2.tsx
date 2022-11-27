@@ -51,7 +51,8 @@ function HW2() {
 
     const filteredAffairs = filterAffairs(affairs, filter)
     const deleteAffairCallback = (_id: number) => {
-
+        console.log("clicked")
+        setAffairs(affairs.filter(el=>el._id !== _id))
     }
 
     return (
