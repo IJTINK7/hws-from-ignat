@@ -7,7 +7,7 @@ import s2 from '../../s1-main/App.module.css'
 * 2 - указать нужный тип для defaultAffairs +
 * 3 - дописать типы и логику функции filterAffairs и проверить её тестами
 * 4 - выполнить пункт 3 для функции deleteAffair
-* 5 - указать нужный тип в useState с affairs
+* 5 - указать нужный тип в useState с affairs +
 * 6 - дописать тип и логику функции deleteAffairCallback
 * 7 - в файле Affairs.tsx дописать типизацию пропсов
 * 8 - в файле Affairs.tsx дописать логику функций setAll, setHigh, setMiddle, setLow
@@ -21,7 +21,7 @@ export type AffairPriorityType = "low" | "middle" | "high" ;
 export type AffairType = {
     _id: number;
     name: string;
-    priority: AffairPriorityType
+    priority: AffairPriorityType;
 }
 export type FilterType = 'all' | AffairPriorityType;
 
@@ -35,14 +35,11 @@ const defaultAffairs: Array<AffairType> = [
 ];
 
 // pure helper functions
-export const filterAffairs = (affairs: Array<AffairType>, filter: string): any => { // need to fix any
-
-
-    return affairs // need to fix
+export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): any => { // need to fix any
+    return affairs.filter(el=>el.priority === filter)
 }
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): any => { // need to fix any
-
-    return affairs // need to fix
+    return affairs.filter(el=>el._id !== _id);
 }
 
 function HW2() {
