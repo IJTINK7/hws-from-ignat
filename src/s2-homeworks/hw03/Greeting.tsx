@@ -56,7 +56,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                     onClick={addUser}
                     className={s.button}
                 >
-                    add
+                    Add
                 </button>
             </div>
 
