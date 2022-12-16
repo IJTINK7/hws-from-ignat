@@ -1,7 +1,9 @@
 .input:focus {
+    border: 1px #D1D1D1 solid;
 }
 
 .input {
+
 }
 
 .inputWrapper {
@@ -22,9 +24,11 @@
 }
 
 .errorInput:focus {
-    border: 1px #FF1A47 solid;
+    border: 1px #CC1439 solid;
 }
 
 .error {
-    color: red;
+    color: #CC1439;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
