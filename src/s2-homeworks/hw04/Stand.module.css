@@ -15,35 +15,8 @@
     flex-direction: column;
     gap: 24px;
 }
-button{
-    width: 132px;
-    height: 30px;
-    border-radius: 3px;
-    border:none;
-    font-family: "Montserrat", serif;
-    font-weight: 600;
-}
-.defaultButton{
-    color: #FFFFFF;
-    background-color: #0066CC;
-}
-.redButton{
-    color: #FFFFFF;
-    background-color: #CC1439;
-}
-.disabledButton{
-    color: #002E5C;
-    background-color: #004D99;
-    opacity: 0.5;
-;
-}
-.secondaryButton{
-    color: #0066CC;
-    background-color: #FFFFFF;
-    width: 176px;
-    height: 30px;
-    border: 1px #0066CC solid;
-}
+
+
 .checkboxes {
     display: flex;
     flex-direction: column;
