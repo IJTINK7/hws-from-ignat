@@ -44,7 +44,7 @@ const Stand = () => {
                 {/*обычная кнопка:*/}
                 <div>
                     <SuperButton id={'hw4-super-button-default'}>
-                        default
+                       default
                     </SuperButton>
                 </div>
                 {/*красная кнопка:*/}
@@ -82,7 +82,7 @@ const Stand = () => {
                         checked={stateForAllCheckboxes}
                         onChangeChecked={setChecked}
                     >
-                        some text
+                        Homework
                     </SuperCheckbox>
                 </div>
                 {/*совместим со старым кодом:*/}

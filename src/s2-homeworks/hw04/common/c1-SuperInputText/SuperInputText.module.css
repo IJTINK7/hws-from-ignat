@@ -15,10 +15,13 @@
 }
 
 .errorInput {
+    border: 3px lime solid;
+    background-color: red;
 }
 
 .errorInput:focus {
 }
 
 .error {
+    color: red;
 }
