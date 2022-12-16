@@ -29,7 +29,11 @@ const Stand = () => {
                         onChangeText={setValue}
                         error={error}
                         onEnter={() => {
-                            setError(stateForAllInputs.trim() ? '' : 'Error')
+                            setError(
+                                stateForAllInputs.trim()
+                                    ? ''
+                                    : 'Error'
+                            )
                             setValue('')
                         }}
                     />
@@ -45,8 +49,7 @@ const Stand = () => {
                 </div>
                 {/*красная кнопка:*/}
                 <div>
-                    <SuperButton id={'hw4-super-button-red'}
-                                 xType={'red'}>
+                    <SuperButton id={'hw4-super-button-red'} xType={'red'}>
                         red
                     </SuperButton>
                 </div>
