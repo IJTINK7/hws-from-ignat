@@ -39,13 +39,16 @@ const Stand = () => {
             <div className={s.buttons}>
                 {/*обычная кнопка:*/}
                 <div>
-                    <SuperButton id={'hw4-super-button-default'}>
+                    <SuperButton id={'hw4-super-button-default'}
+                                 className={s.defaultButton}>
                         default
                     </SuperButton>
                 </div>
                 {/*красная кнопка:*/}
                 <div>
-                    <SuperButton id={'hw4-super-button-red'} xType={'red'}>
+                    <SuperButton id={'hw4-super-button-red'}
+                                 xType={'red'}
+                                 className={s.redButton}>
                         red
                     </SuperButton>
                 </div>
@@ -55,6 +58,7 @@ const Stand = () => {
                         id={'hw4-super-button-disabled'}
                         xType={'red'}
                         disabled
+                        className={s.disabledButton}
                     >
                         disabled
                     </SuperButton>
@@ -64,6 +68,7 @@ const Stand = () => {
                     <SuperButton
                         id={'hw4-super-button-secondary'}
                         xType={'secondary'}
+                        className={s.secondaryButton}
                     >
                         secondary
                     </SuperButton>
