@@ -15,11 +15,14 @@
 }
 
 .errorInput {
-    border: 3px lime solid;
-    background-color: red;
+    width: 372px;
+    height: 36px;
+    border: 1px #FF1A47 solid;
+    border-radius: 5px;
 }
 
 .errorInput:focus {
+    border: 1px #FF1A47 solid;
 }
 
 .error {
