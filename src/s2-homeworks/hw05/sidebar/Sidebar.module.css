@@ -1,22 +1,37 @@
 .sidebar {
+
 }
 
 .sidebar.open {
 }
 
 .background {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 233px;
+    top: 0;
+    background: #000000;
+    opacity: 0.3;
 }
 
 .nav {
+
 }
 
 .nav a {
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
 }
 
 .nav a:hover {
+    color: #58ACFF;
 }
 
 .nav a.active {
+    color: #0059B2;
 }
 .close {
 }
