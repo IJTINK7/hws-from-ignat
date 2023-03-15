@@ -30,14 +30,18 @@
 }
 
 .nav {
-    color: #000000;
+    padding: 40px 0;
 }
 
 .nav a {
+    color: #000000;
     font-family: Montserrat, serif;
+    text-decoration: none;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
+    padding: 22px 70px;
+    display: block;
 }
 
 .nav a:hover {
