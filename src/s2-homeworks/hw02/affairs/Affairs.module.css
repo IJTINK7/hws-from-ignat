@@ -1,8 +1,7 @@
 .buttonContainer {
-    margin-left: 54vh;
-    margin-bottom: 32px;
     display: flex;
     gap: 24px;
+    margin-bottom: 32px;
 }
 
 .all {
@@ -49,7 +48,6 @@
 }
 
 .affairs {
-    margin: 0 auto;
     display: flex;
     gap: 17px;
     flex-wrap: wrap;
