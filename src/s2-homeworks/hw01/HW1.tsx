@@ -4,12 +4,13 @@ import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
+import sharingan from './sharingan.jpg'
 
 /*
 * 1 - описать тип MessageType +
 * 2 - описать тип MessagePropsType в файле Message.tsx +
 * 3 - в файле Message.tsx отобразить приходящие данные +
-* 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx
+* 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx +
 * 5 - сделать стили в соответствии с дизайном
 * */
 
@@ -32,8 +33,8 @@ type MessageTextType = {
 export const message0: MessageType = {
     id: 0,
     user: {
-        avatar: avatar, // можно менять
-        name: 'Brad',  // можно менять
+        avatar: sharingan, // можно менять
+        name: 'Norman',  // можно менять
     },
     message: {
         text: "What's up man?", // можно менять
@@ -44,7 +45,7 @@ export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: avatar, // можно менять
-        name: 'Friend Name', // можно менять
+        name: 'Brad', // можно менять
     },
     message: {
         text: 'Well, absolutely nothing. You?', // можно менять
