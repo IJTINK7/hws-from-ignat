@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hws-from-ignat/static/css/main.57138b8e.css",
+    "main.css": "/hws-from-ignat/static/css/main.6cc5fb4b.css",
     "main.js": "/hws-from-ignat/static/js/main.a3e57c64.js",
     "static/js/787.66cb4309.chunk.js": "/hws-from-ignat/static/js/787.66cb4309.chunk.js",
     "static/media/sharingan.jpg": "/hws-from-ignat/static/media/sharingan.7a6648ff21d13f8590a7.jpg",
     "static/media/avatar.png": "/hws-from-ignat/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/hws-from-ignat/index.html",
-    "main.57138b8e.css.map": "/hws-from-ignat/static/css/main.57138b8e.css.map",
+    "main.6cc5fb4b.css.map": "/hws-from-ignat/static/css/main.6cc5fb4b.css.map",
     "main.a3e57c64.js.map": "/hws-from-ignat/static/js/main.a3e57c64.js.map",
     "787.66cb4309.chunk.js.map": "/hws-from-ignat/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57138b8e.css",
+    "static/css/main.6cc5fb4b.css",
     "static/js/main.a3e57c64.js"
   ]
 }
