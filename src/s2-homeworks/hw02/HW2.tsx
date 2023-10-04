@@ -4,7 +4,7 @@ import s2 from '../../s1-main/App.module.css'
 
 /*
 * 1 - описать типы AffairPriorityType, AffairType +
-* 2 - указать нужный тип для defaultAffairs
+* 2 - указать нужный тип для defaultAffairs +
 * 3 - дописать типы и логику функции filterAffairs и проверить её тестами
 * 4 - выполнить пункт 3 для функции deleteAffair
 * 5 - указать нужный тип в useState с affairs
@@ -26,7 +26,7 @@ export type AffairType = {
 export type FilterType = 'all' | AffairPriorityType
 
 // constants
-const defaultAffairs: any = [ // need to fix any
+const defaultAffairs: AffairType[] = [ // need to fix any
     {_id: 1, name: 'React', priority: 'high'}, // студенты могут изменить содержимое name и количество элементов в массиве, ...priority не менять!
     {_id: 2, name: 'anime', priority: 'low'},
     {_id: 3, name: 'games', priority: 'low'},
