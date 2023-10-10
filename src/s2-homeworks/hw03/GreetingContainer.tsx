@@ -4,11 +4,12 @@ import { UserType } from './HW3'
 
 type GreetingContainerPropsType = {
     users: UserType[] // need to fix any
-    addUserCallback: (user: [])=>void // need to fix any
+    addUserCallback: (name: string)=>void // need to fix any
 }
 
-export const pureAddUser = (name: any, setError: any, setName: any, addUserCallback: any) => {
+export const pureAddUser = (name: string, setError: (error: string)=>void, setName: (name: string)=>void, addUserCallback: (name: string)=>void) => {
     // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
+    name === "" ? setError("Error") : addUserCallback(name); setName("")
 }
 
 export const pureOnBlur = (name: any, setError: any) => { // если имя пустое - показать ошибку
