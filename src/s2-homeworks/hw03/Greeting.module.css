@@ -27,6 +27,7 @@
 }
 
 .input:focus {
+    border: black 3px solid;
 }
 
 .errorInput {
