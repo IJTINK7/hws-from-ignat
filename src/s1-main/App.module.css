@@ -5,7 +5,9 @@
 }
 
 .hwTitle {
+    margin-top: 50px;
     margin-left: 70px;
+    margin-bottom: 50px;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     font-size: 22px;
