@@ -7,7 +7,7 @@ import s from './HW6.module.css'
 
 /*
  * 1 - в файле SuperEditableSpan.tsx дописать логику функций onEnterCallback, onBlurCallback, onDoubleClickCallBack +
- * 2 - дописать логику функции restore
+ * 2 - дописать логику функции restore +
  * 3 - сделать стили в соответствии с дизайном
  */
 
@@ -19,7 +19,7 @@ const HW6 = () => {
     }
     const restore = () => {
         // делают студенты
-
+        setValue(restoreState<string>('hw6-editable-span-value', ""))
     }
 
     return (
