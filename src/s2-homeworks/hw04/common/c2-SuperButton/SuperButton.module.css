@@ -1,5 +1,5 @@
 .button {
-    width: 132px;
+    min-width: 132px;
     height: 30px;
     border-radius: 3px;
     border:none;
@@ -14,8 +14,8 @@
 .secondary {
     color: #0066CC;
     background-color: #FFFFFF;
-    width: 176px;
-    height: 30px;
+    min-width: 132px;
+    padding: 0 16px;
     border: 1px #0066CC solid;
 }
 
